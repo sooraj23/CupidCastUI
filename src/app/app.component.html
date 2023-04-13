@@ -1,0 +1,7 @@
+<h1> <span>Welcome to {{ title }} </span></h1>
+
+<ul>
+    <li *ngFor="let user of users">
+        {{user.userId}} - {{user.userName}} - {{user.userAge}}
+    </li>
+</ul>
